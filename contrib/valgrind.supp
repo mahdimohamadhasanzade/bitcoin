@@ -1,7 +1,5 @@
 # This valgrind suppressions file includes known Valgrind warnings in our
-# dependencies that cannot be fixed in-tree.
-#
-# Example use:
+# dependencies that cannot be fixed in-
 # $ valgrind --suppressions=contrib/valgrind.supp build/src/test/test_bitcoin
 # $ valgrind --suppressions=contrib/valgrind.supp --leak-check=full \
 #       --show-leak-kinds=all build/src/test/test_bitcoin
